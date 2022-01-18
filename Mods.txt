@@ -1,0 +1,38 @@
+=================================================
+=== Instructions for using EventGen with mods ===
+=================================================
+
+Event Generator will work with mods once the appropriate text files are
+modified.
+
+
+Country names and tags:
+
+1. Open text.csv with Excel or similar (I use OpenOffice).
+2. Find the section that deals with tags (search for MIN).
+   Remove everything except columns A and B of this section. Make sure there
+   are no DESC's left.
+3. Select everything. Select Data->Sort and sort by Column B (ascending).
+   Note that you could sort by Column A if you'd rather.
+4. Select column A and copy. Create a new text file and paste it in. Do the
+   same for column B. This way, the names are in the same order as the tags
+   (this is very important!).
+5. Rename your new text files appropriately and put them in the Data
+   subdirectory.
+
+
+Provinces (only needed for new maps):
+
+1. Open province.csv with Excel or similar (I use OpenOffice).
+2. Select everything. Select Data->Sort and sort by Terrain (make sure the
+   option for column labels is selected).
+3. Delete all rows in which Terrain >= 5 (that is, keep anything with 4 or
+   less). This gets rid of oceans, rivers, and permanent terra incognita.
+4. Select everything again and sort by Name.
+5. Copy columns A and B to text files. Remove the labels from the beginning.
+6. Rename your new text files appropriately and put them in the Data
+   subdirectory.
+
+
+Note: Obviously, you shouldn't save changes to text.csv or province.csv after
+doing all this sorting and deleting. :)

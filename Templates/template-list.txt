@@ -1,0 +1,7 @@
+# -------------------------
+# List of templates
+# -------------------------
+
+
+template = { name = "AI switcher" desc = "Template for AI-switching events." file = "Templates/AI_switcher.txt" } 
+template = { name = "Screenshot reminder" desc = "Reminder to take screenshots at intervals." file = "Templates/Screenshot reminder.txt" } 

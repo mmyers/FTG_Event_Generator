@@ -1,0 +1,1396 @@
+0new
+access
+Gives current country military access to selected country.
+1cmb
+which = 
+country_tag
+0new
+account_eff
+Changes the account effeciancy.
+1cmb
+which = 
+main
+education
+police
+social
+2cmb
+value = 
++-100_tag
+0new
+activate_building_type
+When activated you will be able to build factories of that type. Used by inventions & techs.
+1cmb
+which = 
+factory_tag
+RGO_tag
+0new
+activate_division_type
+When activated you will be able to build divisions of that type. Used by inventions & techs.
+1cmb
+which = 
+unit_tag
+brigade_tag
+0new
+activate_torpedo_attack
+Activates the torpedo attack values of naval divisions.
+0new
+addcore
+Adds province to core national provinces. -1 random province bordering the country , -2 random province in country, -3 random province bordering national provinces.
+1cmb
+which = 
+-1
+-2
+-3
+province_id
+0new
+add_countryculture
+Adds a pop culture to your national cultures.
+1cmb
+which = 
+culture_tag
+0new
+add_division
+Adds a division to force pool without cost.
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
+none
+brigade_tag
+0new
+add_pop
+This doesn't work in 1.03. (See convert_pop instead =)
+1cmb
+which = 
+culture_tag
+workforce_tag
+2cmb
+value = 
+100_tag
+3cmb
+where = 
+-1
+province_id
+0new
+ai
+Loads a new ai file.
+1txb
+which = 
+'AI_FilePath'
+0new
+alliance
+If 'value = 1' the alliance will be defensive. If 'where' is set, that country will be an exception to the alliance. 'when' = 1 means the alliance will never expire.
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+0
+1
+3cmb
+where = 
+country_tag
+4cmb
+when = 
+0
+1
+0new
+allow_party
+-Help text here-
+1txb
+which = 
+'party_id'
+0new
+aristocrat_bonus
+Changes the aristocrat bonus.
+1cmb
+value = 
++-100_tag
+0new
+army_revolt
+-Help text here-
+1cmb
+which = 
+province_id
+2cmb
+value = 
++-10_tag
+0new
+attrition_mod
+Changes the attrition.
+1cmb
+value = 
++-100_tag
+0new
+badboy
+Change the badboy value(=translation increase or decrease how aggressive the AI countries think you are).
+=
+1cmb
+value = 
++-100_tag
+0new
+ban_party
+Remove party from the eligable parties in elections. May return through other events.
+1txb
+which = 
+'party_id'
+0new
+barrel_exploits
+Changes the barrel exploits.
+1cmb
+value = 
++-100_tag
+0new
+bond_sale_mod
+Changes the bond sale. (Maybe the interest reate?)
+1cmb
+value = 
++-100_tag
+0new
+break_guarantee
+Removes a guarantee of independance.
+1cmb
+which = 
+country_tag
+0new
+build_division
+Puts the selected division in the build qeue. (Must pay all costs though, and nothing will happen if there are not enough resources. So use only for forcing the AI, for players use add_division instead.)
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
+none
+brigade_tag
+0new
+build_time
+Modifies the build time for selected unit with value.
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
++-100_tag
+0new
+canal
+Opens the canal. (This seemsto work a bit strange though...)
+1cmb
+where = 
+province_id
+0new
+capacity_cost_mod
+Modifies the capacity cost. (?)
+1cmb
+value = 
++-100_tag
+0new
+capital
+Moves the country capital to the province selected.
+1cmb
+which = 
+province_id
+0new
+capitalist_bonus
+Modifies the bonus capitalists give to factories.
+1cmb
+value = 
++-100_tag
+0new
+civilized
+Changes the civilized value for current country. (Uncivilized can only have colonial wars, etc.)
+1cmb
+value = 
+yes
+no
+0new
+clrflag
+Clears the flag with selected name.
+1txb
+which = 
+'flagname'
+0new
+colonial_migration
+Modifies the likelyhood of your citizens moving to your colonies.
+1cmb
+value = 
++-100_tag
+0new
+colony_creation_prestige_mod
+Modifies the prestige gained by getting a colony.
+1cmb
+value = 
++-100_tag
+0new
+constitution
+Changes the constitution to selected value.
+1cmb
+which = 
+constitution_tag
+0new
+construct
+Adds the building in the selected province. If railroad selected it adds on to already existing in state. (-1=random, -2 random core)
+1cmb
+which = 
+coaling_station
+fort
+mission
+trade_post
+railroad
+2cmb
+where = 
+-1
+-2
+province_id
+0new
+control
+Gives control to selected country for selected province.
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+province_id
+0new
+controlstate
+Gives control to selected country for whole state of selected province.
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+province_id
+0new
+country
+Changes the current country to the new country. (This changes the country, if you wish to give a country to another use 'inherit' instead.)
+1cmb
+which = 
+country_tag
+0new
+crime_fighting_eff
+Modifies the crime fighing efficiency.
+1cmb
+value = 
++-100_tag
+0new
+convert_pop_type
+Converts pop from box1 to box2 in the whole state of selected province when=%. No where = all states. (The pops are placed randomly in the state so beware of moving pops).
+1cmb
+which = 
+cultural_majority
+cultural_minority
+religious_majority
+religious_minority
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+2cmb
+value = 
+cultural_majority
+religious_majority
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+3cmb
+where = 
+0
+province_id
+4cmb
+when = 
+100_tag
+0new
+deactivate_division_type
+The selected unit type will no longer be possible to build.
+1cmb
+which = 
+unit_tag
+brigade_tag
+0new
+defense
+Modifies the defense rating of selected unit type. (Usually used by tech and inventions.)
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
++-10_tag
+0new
+defense_spending_prestige_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+delete_unit
+Delets either a specific unit or a random (-1) or a random land (-2) or a random naval (-3).
+1cmb
+which = 
+-1
+-2
+-3
+unit_id
+0new
+detection
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
++-10_tag
+0new
+diplomatic_efficiency
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+education_modifier
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+end_access
+Removes the current country's Military access to selected country. (See also neutrality).
+1cmb
+which = 
+country_tag
+0new
+end_satellite
+-Help text here-
+0new
+end_satellite_mastery
+-Help text here-
+1cmb
+which = 
+country_tag
+0new
+establishment
+Changes the current country's research establishment to selected.
+1cmb
+which = 
+establishment_tag
+0new
+event_chance
+Gives a %age chance to instantly trigger selected event.
+1txb
+which = 
+event_id
+2cmb
+value = 
+100_tag
+0new
+executive_designation
+Changes the current country's ruling establishment to selected.
+1cmb
+which = 
+parliamentarism
+hms_government
+laws_by_decree
+0new
+factory_cost_mod
+Modifies the factory cost by %age.
+1cmb
+value = 
++-100_tag
+0new
+fire_attack
+-Help text here-
+1cmb
+which = 
+land_unit_tag
+2cmb
+value = 
++-10_tag
+0new
+flagname
+I have no idea what this one does???
+1txb
+which = 
+flagname
+0new
+force_ruling_party
+Installs the party closest to the selected ideology.
+1cmb
+which = 
+ideology_tag
+0new
+fort_level
+Sets the limit of forts' value the current country can build.
+1cmb
+value = 
+1
+2
+3
+4
+5
+6
+7
+0new
+GA_to_hit
+-Help text here-
+1cmb
+value = 
+100_tag
+0new
+gain_building
+Instantly gain the building without cost or building time.
+1cmb
+which = 
+-1
+province_id
+2cmb
+value = 
+-2
+factory_tag
+0new
+gain_tech
+Country gains the tech selected without any research cost.
+1txb
+which = 
+tech_id(-1 for random)
+0new
+gas_attack
+-Help text here-
+0new
+gas_protection
+0new
+guarantee
+-Help text here-
+1cmb
+which = 
+country_tag
+0new
+gun_attack
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
++-10_tag
+0new
+health_care
+-Help text here-
+1cmb
+which = 
+none
+trinkets
+low
+acceptable
+good
+0new
+hold_election
+-Help text here-
+0new
+incflag
+Increase the eventflag with the value selected.
+1txb
+which = 
+'flagname'
+2cmb
+value = 
++-10_tag
+0new
+independence
+-Help text here-
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+0
+1
+0new
+infantry_exploits
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+inherit
+Current country gains control of selected country and it's armed forces.
+1cmb
+which = 
+-1
+country_tag
+0new
+land_fort
+-Help text here-
+1cmb
+which = 
+-1
+province_id
+2cmb
+value = 
+1
+2
+3
+0new
+leader
+Adds the selected leader to the pool.
+1txb
+which = 
+leader_id
+0new
+leadership
+Changes the leadership with value.
+1cmb
+value = 
++-10_tag
+0new
+leave_alliance
+-Help text here-
+1cmb
+which = 
+0
+country_tag
+0new
+life_sustainability
+Changes the 'life rating' of the selected province. When=0=temporary. When=1=permanent. (Life rating will have effect on immi/emmigration).
+1cmb
+which = 
+province_id
+2cmb
+value = 
++-100_tag
+3cmb
+when = 
+1
+0
+0new
+literacy
+-Help text here-
+1cmb
+value = 
+1.0_tag
+0new
+loan_interest_rate
+-Help text here-
+1cmb
+value = 
++-10_tag
+0new
+loan_repayment_eff
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+local_clrflag
+Clears the selected flag for the current country only.
+1txb
+which = 
+flagname
+0new
+local_incflag
+Increases the flag for the current country with value.
+1txb
+which = 
+flagname
+2cmb
+value = 
++-10_tag
+0new
+local_setflag
+Sets the flag for the current country only to value.
+1txb
+which = 
+flagname
+2cmb
+value = 
+yes
+no
++-10_tag
+0new
+make_colony
+-Help text here-
+1cmb
+which = 
+country_tag
+0new
+make_dominion
+-Help text here-
+1cmb
+which = 
+country_tag
+0new
+make_satellite
+-Help text here-
+1cmb
+which = 
+country_tag
+0new
+manpowerpool
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+max_elan
+-Help text here-
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
+100_tag
+0new
+max_organization
+-Help text here-
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
+100_tag
+0new
+maximum_workhours
+-Help text here-
+1cmb
+which = 
+8
+10
+12
+14
+24
+0new
+may_dec_capacity
+-Help text here-
+0new
+may_inc_capacity
+-Help text here-
+0new
+minelayer
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
+10_tag
+0new
+minesweeper
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
+10_tag
+0new
+minimum_wages
+-Help text here-
+1cmb
+which = 
+none
+trinkets
+low
+acceptable
+good
+0new
+minority_emigration
+-Help text here-
+1cmb
+value = 
++-10_tag
+0new
+national_trauma
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+national_value
+-Help text here-
+1cmb
+which = 
+liberty
+equality
+order
+0new
+neutrality
+-Help text here-
+0new
+party_system
+-Help text here-
+1cmb
+which = 
+one_party
+two_party
+multi_party
+0new
+peace
+-Help text here-
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+0
+1
+0new
+pension_funds
+-Help text here-
+1cmb
+which = 
+none
+trinkets
+low
+acceptable
+good
+0new
+plurality
+-Help text here-
+1cmb
+value = 
++-10_tag
+0new
+political_parties
+-Help text here-
+1cmb
+which = 
+none_allowed
+right_to_ban
+all_allowed
+0new
+political_reform_cost_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+pop_cash
+Changes the cash a pop has in whole state of selected province. If no where field is specified the change is for all states. Select a value in the 'which' to get a %.
+1cmb
+which = 
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+cultural_majority
+cultural_minority
+religious_majority
+religious_minority
+100_tag
+2cmb
+value = 
++-money_tag
+3cmb
+where = 
+0
+province_id
+0new
+pop_consciousness
+Changes the consciousness of a pop in whole state of selected province. If "0" where field is specified the change is for all states. Select a value in the 'which' to get a %.
+1cmb
+which = 
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+cultural_majority
+cultural_minority
+religious_majority
+religious_minority
+100_tag
+2cmb
+value = 
++-10_tag
+3cmb
+where = 
+0
+province_id
+0new
+pop_dominant_issue
+Changes the dominant issue for a pop in whole state of selected province. If "0" where field is specified the change is for all states. Select a value in the 'which' to get a %.
+1cmb
+which = 
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+cultural_majority
+cultural_minority
+religious_majority
+religious_minority
+100_tag
+2cmb
+value = 
+issue_tag
+3cmb
+where = 
+0
+province_id
+0new
+pop_growth_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+pop_ideology
+Changes the ideology for a pop in whole state of selected province. If "0" where field is specified the change is for all states. Select a value in the 'which' to get a %.
+1cmb
+which = 
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+cultural_majority
+cultural_minority
+religious_majority
+religious_minority
+100_tag
+2cmb
+value = 
+ideology_tag
+3cmb
+where = 
+0
+province_id
+0new
+pop_militancy
+Changes the militancy for a pop in whole state of selected province. If no where field is specified the change is for all states. Select a value in the 'which' to get a %.
+1cmb
+which = 
+religion_tag
+culture_tag
+ideology_tag
+workforce_tag
+cultural_majority
+cultural_minority
+religious_majority
+religious_minority
+100_tag
+2cmb
+value = 
++-10_tag
+3cmb
+where = 
+0
+province_id
+0new
+pop_research_mod
+-Help text here-
+1cmb
+which = 
+workforce_tag
+2cmb
+value = 
++-100_tag
+0new
+press_rights
+-Help text here-
+1cmb
+which = 
+state_press
+censorship
+free_press
+0new
+prestige
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+prestige_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+production_modifier
+-Help text here-
+1cmb
+which = 
+factory_tag
+RGO_tag
+2cmb
+value = 
++-100_tag
+0new
+prov_owner_war
+-Help text here-
+1cmb
+which = 
+province_id
+2cmb
+value = 
+country_tag
+0new
+public_meetings
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+railroad
+-Help text here-
+1cmb
+which = 
+-1
+province_id
+2cmb
+value = 
+1
+2
+3
+4
+5
+0new
+railroad_cost_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+railroad_level
+-Help text here-
+1cmb
+value = 
+1
+2
+3
+4
+5
+0new
+rebel_spawn_rate
+-Help text here-
+1cmb
+which = 
+ideology_tag
+2cmb
+value = 
++-10_tag
+0new
+receiveprovince
+-Help text here-
+1cmb
+which = 
+province_id
+0new
+receivestate
+-Help text here-
+1cmb
+which = 
+province_id
+2cmb
+when = 
+0
+1
+0new
+relation
+-Help text here-
+1cmb
+which = 
+-1
+-2
+-3
+country_tag
+2cmb
+value = 
++-100_tag
+0new
+reliability
+-Help text here-
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
++-10_tag
+0new
+remove_building
+-Help text here-
+1cmb
+which = 
+-1
+province_id
+0new
+remove_corruption
+-Help text here-
+1cmb
+which = 
+-1
+province_id
+0new
+remove_countryculture
+-Help text here-
+1cmb
+which = 
+culture_tag
+0new
+removecore
+-Help text here-
+1cmb
+which = 
+province_id
+0new
+research_cost
+-Help text here-
+1cmb
+value = 
++-10_tag
+0new
+research_points
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+research_time
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+resource
+Changes the stockpile of a goods.
+1cmb
+which = 
+resources_tag
+2cmb
+value = 
++-value_tag
+0new
+resource_perc
+Removes or adds a %age of the stockpiled resource. So -50 removes half of the stockpile. (Used mainly in random events).
+1cmb
+which = 
+resource_tag
+2cmb
+value = 
++-100_tag
+0new
+resource_type
+-Help text here-
+1cmb
+which = 
+rawmaterial_tag
+2cmb
+where = 
+-1
+province_id
+0new
+resource_value
+-Help text here-
+1cmb
+which = 
+rawmaterial_tag
+2cmb
+value = 
++-10_tag
+3cmb
+where = 
+-1
+province_id
+0new
+revanchism
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+revolt
+-Help text here-
+1cmb
+which = 
+-1
+-2
+culture_tag
+2cmb
+value = 
+division__tag
+3cmb
+where = 
+-1
+province_id
+0new
+safety_regulations
+-Help text here-
+1cmb
+which = 
+none
+trinkets
+low
+acceptable
+good
+0new
+same_culture_prov_prestige_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+secedeprovince
+-Help text here-
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+province_id
+0new
+secedestate
+-Help text here-
+1cmb
+which = 
+country_tag
+2cmb
+value = 
+province_id
+3cmb
+when = 
+0
+1
+0new
+separatism
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+setflag
+Sets the flag to the value.
+1txb
+which = 
+flagname
+2cmb
+value = 
+yes
+no
++-10_tag
+0new
+set_religion
+-Help text here-
+1cmb
+which = 
+religion_tag
+0new
+set_ruling_party
+-Help text here-
+1txb
+which = 
+party_id
+0new
+set_slavery
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+shock_attack
+-Help text here-
+1cmb
+which = 
+land_unit_tag
+2cmb
+value = 
++-10_tag
+0new
+shore_bombardment
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
++-10_tag
+0new
+sleep_party
+-Help text here-
+1txb
+which = 
+party_id
+0new
+sleepevent
+-Help text here-
+1txb
+which = 
+event_id
+0new
+sleepleader
+-Help text here-
+1txb
+which = 
+leader_id
+0new
+social_anthropology
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+social_reform_cost_mod
+-Help text here-
+1cmb
+value = 
++-100_tag
+0new
+speed
+-Help text here-
+1cmb
+which = 
+div_dag
+2cmb
+value = 
+10_tag
+0new
+strata_income_mod
+-Help text here-
+1cmb
+which = 
+rich
+middle
+low
+2cmb
+value = 
++-100_tag
+0new
+supplyconsumption
+-Help text here-
+1cmb
+which = 
+unit_tag
+2cmb
+value = 
++-10_tag
+0new
+switch_allegiance
+-Help text here-
+1cmb
+which = 
+country_tag
+2txb
+value = 
+unit_id(-1for random)
+0new
+TA_to_hit
+-Help text here-
+1cmb
+value = 
+100_tag
+0new
+tariff_eff
+-Help text here-
+1cmb
+value = 
++-10_tag
+0new
+tax_eff
+-Help text here-
+1cmb
+value = 
++-10_tag
+0new
+tech_prestige
+-Help text here-
+1cmb
+value = 
+100_tag
+0new
+terminate_loans
+-Help text here-
+0new
+torpedo_attack
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
+10_tag
+0new
+trade_unions
+-Help text here-
+1cmb
+which = 
+none
+non_socialist
+socialist
+all
+0new
+transport_capacity
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
+10_tag
+0new
+treasury
+Adds or removes the amount from the state treasury (funds).
+1cmb
+value = 
++-money_tag
+0new
+trigger
+-Help text here-
+1txb
+which = 
+event_id
+0new
+unemployment_subsidies
+-Help text here-
+1cmb
+which = 
+none
+trinkets
+low
+acceptable
+good
+0new
+visibility
+-Help text here-
+1cmb
+which = 
+naval_unit_tag
+2cmb
+value = 
+10_tag
+0new
+vote_on_ideology
+-Help text here-
+1cmb
+value = 
+yes
+no
+0new
+voting_rights
+-Help text here-
+1cmb
+which = 
+none
+landed
+wealth
+suffrage
+0new
+wake_party
+-Help text here-
+1txb
+which = 
+party_id
+0new
+war
+-Help text here-
+1cmb
+which = 
+country_tag
+0new
+work_hour_eff
+-Help text here-
+1cmb
+value = 
++-100_tag
+xxx

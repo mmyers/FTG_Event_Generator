@@ -1,0 +1,100 @@
+=============================
+==== General Information ====
+=============================
+
+Macros currently implemented:
+	-${tag}		Prints the tag.
+	-${country}	Prints the country's name.
+	-${provid}	Prints the province ID number.
+	-${provname}	Prints the province's name.
+	-${id}		Prints the event ID number.
+	-${startdate}	Prints the event's starting year.
+	-${deathdate}	Prints the event's ending year.
+	-${today}	Prints today's date (in American format: MM/DD/YY).
+	-${user}	Prints the user's name (as stored in eg.conf).
+
+The country- and province-based macros are most useful when generating events
+for multiple countries or provinces at once.
+
+If, for any macro, no suitable expansion is found, "<none>" will be printed
+instead.
+
+All macros can also be used in event names and descriptions, and in action
+names and commands, although they are probably less useful there.
+
+${tag} and ${provid} can be used in triggers and actions.
+
+Note that all macros are case-insensitive. Also, they are somewhat smart; for
+example, ${date}, ${year}, ${startdate}, and ${startyear} are all equivalent,
+and ${deathdate}, ${deathyear}, ${enddate}, and ${endyear} are all equivalent.
+
+
+=================
+==== Example ====
+=================
+
+Sample header comment:
+
+
+Event ${id}
+AI-switching for ${Tag} (${COUNTRY})
+Start: ${date}
+End: ${endYear}
+Created on ${today} by ${username}
+
+
+When three events using this header are generated, the resulting headers are:
+
+
+# Event 75000
+# AI-switching for FRA (France)
+# Start: 1419
+# End: 1429
+# Created on 9/29/06 by MichaelM
+
+
+# Event 75001
+# AI-switching for FRA (France)
+# Start: 1429
+# End: 1439
+# Created on 9/29/06 by MichaelM
+
+
+# Event 75002
+# AI-switching for FRA (France)
+# Start: 1439
+# End: 1449
+# Created on 9/29/06 by MichaelM
+
+
+=======================
+=== Another example ===
+=======================
+
+Trigger:
+
+NOT = {
+relation = { country = ${tag} data = 0 }
+}
+
+
+When three countries (ABB, ADE, and AFG) are chosen, the triggers are:
+
+trigger = {
+    NOT = {
+        relation = { country = ABB data = 0 }
+    }
+}
+
+trigger = {
+    NOT = {
+        relation = { country = ADE data = 0 }
+    }
+}
+
+trigger = {
+    NOT = {
+        relation = { country = AFG data = 0 }
+    }
+}
+

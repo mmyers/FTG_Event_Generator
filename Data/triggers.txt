@@ -1,0 +1,514 @@
+0new
+ai
+True if country is run by an AI. Yes/no refers to current country.
+=
+1cmb
+yes
+no
+country_tag
+0new
+alliance
+True if country 1 have an alliance with country 2.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+atwar
+True if country is at war. Yes/no refers to current country.
+=
+1cmb
+yes
+no
+country_tag
+0new
+badboy
+True if badboy is above or equal to selected value.
+=
+1cmb
++-100_tag
+0new
+campaign
+True if country is in an election campaign. Yes/no refers to current country.
+=
+1cmb
+yes
+no
+country_tag
+0new
+capital
+True if province is the capital of current country.
+=
+1cmb
+province_id
+0new
+civilized
+True if country is civilized. Yes/no refers to current country.
+=
+1cmb
+yes
+no
+country_tag
+0new
+claim_buildings
+True if there are claim buildings in state of province. (or is it in the province only?)
+=
+1cmb
+province_id
+0new
+colonialnation
+True if country has colonies or claim buildings. Player is true for all players.
+=
+1cmb
+yes
+no
+player
+0new
+constitution
+True if country has the constitution selected. Yes/no applies to current country.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+type = 
+constitution_tag
+0new
+control
+True if province is controlled by country. -1= current country.
+={}
+1cmb
+=
+province = 
+province_id
+2cmb
+=
+data = 
+-1
+country_tag
+0new
+culture
+True if country has culture among its national cultures.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+type = 
+culture_tag
+0new
+desperation
+True if the country's national provincas are => than 'data' %.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+data = 
+100_tag
+0new
+event
+True if event# has triggered.
+=
+1txb
+event#
+0new
+executive_designation
+True if current country's designation matches.
+=
+1cmb
+parliamentarism
+hms_government
+laws_by_decree
+0new
+exists
+True if selected country exists.
+=
+1cmb
+country_tag
+0new
+flag
+True if flag exists and is equal to or higher than value. (Value may be an integer or yes/no)
+={}
+1txb
+name = 'FlagName'
+2cmb
+=
+value = 
+yes
+no
++-10_tag
+0new
+government
+True if country has the ideology selected.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+type = 
+ideology_tag
+0new
+great_war
+True if there is a great war.
+=
+1cmb
+yes
+no
+0new
+greater_prestige
+True if country 1 has more prestige than country 2.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+hi_tax_lo
+Is the high strata tax higher than the low strata tax?
+=
+1cmb
+yes
+no
+0new
+industry
+True if industry score is above or equal to selected value.
+=
+1cmb
++-value_tag
+0new
+invention
+True if invention has triggered.
+=
+1cmb
+invention_tag
+0new
+is_GP
+True if country is a Great Power, muhahaha. Yes/no refers to current country.
+=
+1cmb
+yes
+no
+country_tag
+0new
+is_satellite
+True if country selected is a satellite.
+=
+1cmb
+country_tag
+0new
+leader
+True if leader is active.
+=
+1txb
+leader_id
+0new
+literacy
+True if literacy is higher than value.
+=
+1cmb
+100_tag
+0new
+local_flag
+True if flag exists for current country and is equal to or higher than value. (Value may be an integer or yes/no)
+={}
+1txb
+name = 'FlagName'
+2cmb
+=
+value = 
+yes
+no
+0new
+military
+True if military score is above or equal to selected value.
+=
+1cmb
++-value_tag
+0new
+minorities
+True if country has a cultural minority.
+=
+1cmb
+yes
+no
+0new
+national_value
+True if the current country has the selected national value.
+=
+1cmb
+liberty
+equality
+order
+0new
+occupied
+True if country's provinces are occupied to more than selected %. 
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+data = 
+100_tag
+0new
+owned
+True if province is owned by country. -1=current country.
+={}
+1cmb
+=
+province = 
+province_id
+2cmb
+=
+data = 
+-1
+country_tag
+0new
+party_system
+True if country has selected party system.
+=
+1cmb
+multi_party
+two_party
+one_party
+0new
+peace_treaty
+True if a peace treaty exists between the countries selected.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+pending_revolution
+True if dissent is high enough.
+=
+1cmb
+yes
+no
+0new
+plurality
+True if n
+=
+1cmb
+100_tag
+0new
+police_budget
+True if the police budget is over selected value.
+=
+1cmb
+100_tag
+0new
+policy
+True if selected country has selected policy.(see also 'reform')
+={}
+1cmb
+=
+country = 
+0
+country_tag
+2cmb
+=
+type = 
+policy_tag
+0new
+pop_majority
+True if the pop selection is in majority in the state of province selected.
+=
+1cmb
+religion
+culture
+ideology
+workforce
+0new
+pop_militancy
+True if the militancy in the state of the selected provinceis higher than value.
+={}
+1cmb
+=
+province = 
+province_id
+2cmb
+=
+data = 
+10_tag
+0new
+prestige
+True if country's prestige is higher than value.
+=
+1cmb
++-value_tag
+0new
+random
+*This lets you have a random chance of the event triggering. Remember that the combination of an offset makes a lot of difference.
+=
+1cmb
+100_tag
+0new
+reform
+True if country has the selected reform at the selected level.(see also 'policy')
+={}
+1cmb
+=
+type = 
+reform_tag
+2cmb
+=
+level = 
+none
+trinkets
+low
+acceptable
+good
+reform_value_tag
+0new
+religion
+True if selected country has the selected state religion.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+type = 
+religion_tag
+0new
+revanchism
+True if selected country is occupied to or above selected value.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+data = 
+100_tag
+0new
+ruling_party
+True if the ruling party has the selected id.
+=
+1txb
+party_id
+0new
+satellite
+True if country A is a satellite of country B.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+slavery
+True if slavery has the selected value.
+=
+1cmb
+yes
+no
+0new
+stronger_army
+True if first country has a stronger army than second country.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+stronger_navy
+True if first country has a stronger navy than second country.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+technology
+True if current country has tech.
+=
+1txb
+TechId
+0new
+uncolonized
+True if province doesn't have any claim buildings.
+=
+1cmb
+province_id
+0new
+war
+True if the countries is at war with eachother.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+war_exhaustion
+True if the selected country has a war exhaustion equal to or higher than value.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+value = 
+10_tag
+0new
+won_war
+True if first country has won a war against second country.
+={}
+1cmb
+=
+country = 
+country_tag
+2cmb
+=
+country = 
+country_tag
+0new
+year
+True if current year is equal to or higher than selected year.
+=
+1cmb
+year_tag
+xxx

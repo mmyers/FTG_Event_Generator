@@ -1,0 +1,337 @@
+(Undefined Nation)    MIN
+Abbasid    ABB
+Aden    ADE
+Afghanistan    AFG
+Ak Koyunlu    AKK
+Albania    ALB
+Aleppo    ALE
+Algiers    ALD
+Almohad    ALM
+Altmark    ALT
+Anhalt    ANH
+Anjou    ANJ
+Annam    ANN
+Apulia    APU
+Aragon    ARG
+Arakan    ARK
+Armangnac    AMG
+Armenia    ARM
+Armenia Minor    AMI
+Artois    ART
+Ashanti    ASH
+Assam    ASS
+Astrakhan    AST
+Asturias    ASU
+Atjeh    ATJ
+Austria    HAB
+Auvergne    AUV
+Ayutthaya    AYU
+Ayyubid    AYY
+Aztec Empire    AZT
+Baden    BAD
+Balearic    BAE
+Baluchistan    BAL
+Bantus    BAN
+Basra    BAS
+Bavaria    BAY
+Bearn    BEA
+Bengal    BGL
+Benin    BEN
+Bohemia    BOH
+Bosnia    BOS
+Bourbonnais    BOU
+Brabant    HAU
+Brandenburg    BRA
+Brazil    BRZ
+Bremen    BRE
+Brittany    BRI
+Brunei    BEI
+Bukhara    BUK
+Bulgaria    BUL
+Burgundy    BUR
+Byzantium    BYZ
+Cambodia    CAM
+Candar    CAN
+Castile    CAS
+Catalunya    CAT
+Chagatai Khanate    CHG
+Champa    CHA
+Champagne    CMG
+Chernigov    CRG
+Cherokee    CHE
+Chimú    CHM
+China    CHI
+Coimbra    COI
+Cologne    KOL
+Colombia    COL
+Connacht    CON
+Cordoba    CRD
+Cornwall    CNW
+Corsica    COR
+Courland    KUR
+Creek    CRE
+Crimea    CRI
+Croatia    CRO
+Cuman    CUM
+Cyprus    CYP
+Cyrenaica    CYR
+Dahomey    DAH
+Dai Viet    DAI
+Dakota    DAK
+Damascus    DAM
+Dauphiné    DAU
+Delhi    DLH
+Denmark    DAN
+Duchy of Athens    ATH
+Dulkadir    DUL
+Edessa    EDE
+Egypt    EGY
+Eire    EIR
+England    ENG
+Ethiopia    ETH
+Fatimids    FAT
+Fez    FEZ
+Finland    FIN
+Flanders    FLA
+France    FRA
+Franconia    FRC
+French Catholics    FUC
+Friesland    FRI
+Gelre    GEL
+Genoa    GEN
+Georgia    GEO
+Germany    GER
+Golden Horde    STE
+Gotland    GOT
+Granada    GRA
+Gujarat    GUJ
+Guyenne    AQU
+Haiti    HAI
+Hammadid    HAM
+Hannover    HAN
+Hanseatic League    HSA
+Hellas    GRE
+Helvetia    HEL
+Hessen    HES
+Holland    HLL
+Holstein    SHL
+Holy Roman Empire    HEI
+Huguenots    FPR
+Hungary    HUN
+Huron    HUR
+Hyderabad    HYD
+Iceland    ICE
+Inca Empire    INC
+Iraq    IRA
+Iroquois    OHI
+Istria    IST
+Italy    ITA
+Jodhpur    JAI
+Jutland    JUT
+Karaman    KAR
+Kärnten    KRN
+Kazan    KAZ
+Khazak Horde    KZK
+Khmer    KHM
+Kiev    KIE
+Kingdom of Jerusalem    JER
+Kleves    KLE
+Kongo    KON
+Korea    KOR
+Krete    KRE
+Kustrin    KUS
+La Plata    LAP
+Lancaster    LAN
+Languedoc    LGD
+Leinster    LEI
+Lenape    DEL
+León    LEO
+Lithuania    LIT
+Livonian Order    LIV
+Lorraine    LOR
+Lousiana    LOU
+Luang Prabang    LUA
+Luxembourgh    LUX
+Magdeburg    MAG
+Mahrattis    MAH
+Mainz    MAI
+Makassar    MKS
+Malacca    MLC
+Mali    MAL
+Mallorca    MLL
+Malwa    MLW
+Mameluks    MAM
+Manchu    MCH
+Mantua    MAN
+Mataram    MTR
+Maya    MAA
+Meath    MEA
+Mecklenburg    MEC
+Mesopotamia    MES
+Mexico    MEX
+Milan    MLO
+Minsk    MSK
+Modena    PAR
+Moldavia    MOL
+Morocco    MOR
+Moslem Nations    MUS
+Mughal Empire    MOG
+Munster    MST
+Münster    MUN
+Muscowy    MOS
+Myanmar    MYA
+Mysore    MYS
+Naples    NAP
+Navaho    APA
+Navarra    NAV
+Netherlands    HOL
+Nippon    NIP
+Nogai    NOG
+Normandy    NRM
+North Africa    NAF
+Norway    NOR
+Novgorod    NVG
+Nubia    SUD
+Oldenburg    OLD
+Oman    OMA
+Orissa    ORI
+Orleans    ORL
+Ottoman Empire    TUR
+Papal States    PAP
+Parma    PAM
+Pegu    PEG
+Perm    PRM
+Persia    PER
+Peru    PEU
+Petra    PET
+Picardy    PIC
+Podlasia    POD
+Poitou    POI
+Poland    POL
+Polotsk    POK
+Pommern    POM
+Porto    PRT
+Portugal    POR
+Provence    PRO
+Prussia    PRU
+Pskov    PSK
+Punjab    KSH
+Puritans    PUR
+Qara Koyunlu    QAR
+Quebec    QUE
+Ragusa    RAG
+Romagna    ROM
+Royalists    ROY
+Russia    RUS
+Ryazan    RYA
+Salzburg    SLZ
+Sardinia    SAR
+Savoy    SAV
+Saxony    SAC
+Scotland    SCO
+Seljuk Turks    SEL
+Serbia    SER
+Sevilla    SEV
+Shawnee    SHA
+Sibir    SIB
+Sicily    SIC
+Siebenbürgen    SIE
+Siena    PIS
+Silesia    SIL
+Skåne    SKA
+Slovakia    SLO
+Smolensk    SMO
+Songhai    SON
+Spain    SPA
+Steiermark    SEI
+Stettin    STT
+Strassburg    STR
+Suzdal    SUZ
+Swabia    SWA
+Sweden    SWE
+Syria    SYR
+Tangiers    TAN
+Taungu    TAU
+Teke    TEK
+Teutonic Order    LAT
+The Hedjaz    ARA
+The Kaliphate    CAL
+The Knights    KNI
+The Palatinat    PFA
+Thessalonika    THE
+Tibet    TIB
+Timurid Empire    TIM
+Toulouse    TOU
+Transoxania    TOX
+Trebizond    TRE
+Tripoli    TRI
+Tunisia    TUN
+Tuscany    TOS
+Tver    TVE
+Tyrol    TYR
+Ukraine    UKR
+Ulster    ULS
+Union of Kalmar    KAL
+United States    USA
+User-Defined 0    U00
+User-Defined 1    U01
+User-Defined 2    U02
+User-Defined 3    U03
+User-Defined 4    U04
+User-Defined 5    U05
+User-Defined 6    U06
+User-Defined 7    U07
+User-Defined 8    U08
+User-Defined 9    U09
+User-Defined 10    U10
+User-Defined 11    U11
+User-Defined 12    U12
+User-Defined 13    U13
+User-Defined 14    U14
+User-Defined 15    U15
+User-Defined 16    U16
+User-Defined 17    U17
+User-Defined 18    U18
+User-Defined 19    U19
+User-Defined 20    U20
+User-Defined 21    U21
+User-Defined 22    U22
+User-Defined 23    U23
+User-Defined 24    U24
+User-Defined 25    U25
+User-Defined 26    U26
+User-Defined 27    U27
+User-Defined 28    U28
+User-Defined 29    U29
+User-Defined 30    U30
+User-Defined 31    U31
+User-Defined 32    U32
+User-Defined 33    U33
+User-Defined 34    U34
+User-Defined 35    U35
+User-Defined 36    U36
+User-Defined 37    U37
+User-Defined 38    U38
+User-Defined 39    U39
+Uzbek Kaganate    UZB
+Valencia    VAL
+Venice    VEN
+Verona    VER
+Vientiane    VIE
+Vijayanagar    VIJ
+Volhynia    VOL
+Wales    WLS
+Wallachia    WAL
+Wurtemberg    WUR
+Würzburg    THU
+Xhosa    XHO
+York    YOR
+Zanj    ZAN
+Zapotec    ZAP
+Zeeland    ZEE
+Zimbabwe    ZIM
+Zulu    ZUL
+Mercenaries    MER
+Natives    NAT
+Pirates    PIR
+Rebel Scum    REB

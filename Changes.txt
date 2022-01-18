@@ -1,0 +1,149 @@
+=================
+=== Changelog ===
+=================
+
+*** 1.21 ***
+
+Additions:
+-It is now possible to use ${tag} and ${provid} in triggers and actions.
+ When creating templates with ${tag} and ${provid} in the trigger or the
+ actions, they will be replaced by garbage values in the actual templates.
+ However, when loading the templates, the garbage values should be
+ automatically replaced by the correct macros, so this should be invisible
+ to the user.
+-Added data files for Interregnum in Data/Interregnum. They can be enabled by
+ moving them into Data/, overwriting any files of the same name (backups are
+ recommended).
+
+Changes:
+-There is now a checkbox for generating events without countries.
+ "(No country)", which was in the country selection box, has been removed.
+ As a result, it is now possible to select several countries and generate
+ events without countries. This, in combination with the new ability to have
+ ${tag} in the trigger and actions, allows the creation of a series of events
+ that are _about_ countries, rather than _for_ countries.
+ Idea from a conversation with MattyG.
+
+Bugfixes:
+-Fixed a bug with exporting text for events with two or more actions (the
+ second action name was always the same as the first).
+
+
+*** 1.2 ***
+
+Additions:
+-Added facility for exporting event texts to text.csv. The generator adds a
+ comment at the start of the generated events containing all the necessary
+ lines for text.csv. The text.csv lines are generated in the standard format:
+ EVENTNAMEXXXX, EVENTHISTXXXX, and ACTIONNAMEXXXXA/B/C/D.
+ Also added a menu item to allow the user to pick the column that text will
+ be generated into. (Requested by sturmvogel)
+-In conjunction with the above, added support for loading events in AGCEEP
+ format with texts commented after the fields. The comment immediately
+ following the relevant field is assumed to be the text for it. This will not
+ work well with Paradox events.
+
+Changes:
+-Comments no longer are generated with a space between the '#' and the start
+ of the comment text.
+
+Bugfixes:
+-Event descriptions should now load properly.
+-A few other minor fixes.
+
+
+*** 1.1 ***
+
+Additions:
+-Added support for multiple countries (finally!).
+-Macros are now smarter (i.e., many macros now have more than one allowed
+ construction).
+-Added file "Mods.txt" explaining how to use with mods.
+-Added country tags and names for AGCEEP 1.51 in Data/AGCEEP. They can be
+ enabled by moving the files into Data/, overwriting the existing files.
+-Added capability for templates. Templates are stored in the Templates
+ subdirectory, with the master template list in Templates/template-list.txt.
+ Events can be saved as templates, meaning that exactly one event will be
+ generated, and no macros will be expanded. Feel free to post any user-made
+ templates on the main thread at
+ http://forum.paradoxplaza.com/forum/showthread.php?t=264451.
+ Templates can be quickly loaded through the File->Templates menu.
+ Two example templates ("AI_switcher.txt" and "Screenshot reminder.txt") are
+ pre-loaded.
+-Added "Set user name" menu item to Options menu.
+
+
+Changes:
+-Major reworking of the interface to accomodate the new country/id table. As
+ a side-effect, the window is no longer resizable, since it destroys the new
+ interface.
+-Separated data from GUI.
+-Moved options into a menu, then changed my mind and put them back (but kept
+ the menu).
+-Disabled "AI only" option, because it did not work with "ai = no".
+-Header comments no longer include a line of hashes before and after.
+-Moved changelog into THIS file.
+
+Bugfixes:
+-Miscellaneous fixes; I can't remember specifics, but I think there were quite
+ a few. :)
+
+
+** 1.04 **
+
+Additions:
+-Added ${user} macro. The username is stored in eg.conf, which must now be
+ edited by the user. (Thanks to Tskb18 for the suggestion!)
+
+Changes:
+-The default file header comment now includes the user's name and the date
+ on which the file was generated. (Thanks to Tskb18 for the suggestion!)
+
+
+** 1.03 **
+
+Additions:
+-Added some macros to event header comments; see Macros.txt for more info.
+-Start and end dates can now be parsed from the triggers of random events.
+
+Changes:
+-Changed the layout of the event-loading window.
+-Widened the preview window; now horizontal scroll bars will not always show.
+
+Bugfixes:
+-Start and end years will now work properly when "Increment dates" is selected.
+ Previously, they would be incremented before printing the first one, so all
+ dates would be off by <increment> years.
+-Random events no longer print the start date when it is -1.
+
+
+** 1.02 **
+
+Additions:
+-Added several mnemonics and accelerators, for what they're worth. :)
+
+Bugfixes:
+-Ending month and day are REALLY printed correctly. :)
+-Random events no longer have dates and deathdates printed (except in the
+ trigger).
+-Province-based events no longer have three decimal places after the province
+ ID.
+-Selecting "none" as the country for a random event now works correctly.
+-Fixed several issues with loading events.
+-The preview window now opens at the start of the text instead of at the end.
+
+
+** 1.01 **
+
+Additions:
+-Non-random events without start/death dates are now possible.
+-Setting offset to -1 gives an event with no offset.
+-Setting endyear to -1 gives an event with no endyear.
+
+Bugfixes:
+-Ending month and day are now printed correctly.
+
+
+*** 1.0 ***
+
+-First release

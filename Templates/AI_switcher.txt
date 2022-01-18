@@ -1,0 +1,27 @@
+#
+# Event ${id}
+# AI-switching for ${COUNTRY}
+# Active from ${startdate} - ${deathdate}
+# Created on ${today} by ${user}
+#
+
+event = {
+	id = 16000
+	country = MIN
+
+	trigger = {
+		ai = yes
+	}
+
+	date = { year = 1500 }
+	offset = 30
+	deathdate = { year = 1510 }
+
+	name = "AI_EVENT"
+	desc = "Switch to ${tag}_${startyear}.ai"
+
+	action_a = {
+		name = "OK"
+		command = { type = ai which = "${tag}_${startyear}.ai" }
+	}
+}

@@ -1,0 +1,337 @@
+(Undefined Nation)
+Abbasid
+Aden
+Afghanistan
+Ak Koyunlu
+Albania
+Aleppo
+Algiers
+Almohad
+Altmark
+Anhalt
+Anjou
+Annam
+Apulia
+Aragon
+Arakan
+Armangnac
+Armenia
+Armenia Minor
+Artois
+Ashanti
+Assam
+Astrakhan
+Asturias
+Atjeh
+Austria
+Auvergne
+Ayutthaya
+Ayyubid
+Aztec Empire
+Baden
+Balearic
+Baluchistan
+Bantus
+Basra
+Bavaria
+Bearn
+Bengal
+Benin
+Bohemia
+Bosnia
+Bourbonnais
+Brabant
+Brandenburg
+Brazil
+Bremen
+Brittany
+Brunei
+Bukhara
+Bulgaria
+Burgundy
+Byzantium
+Cambodia
+Candar
+Castile
+Catalunya
+Chagatai Khanate
+Champa
+Champagne
+Chernigov
+Cherokee
+Chimú
+China
+Coimbra
+Cologne
+Colombia
+Connacht
+Cordoba
+Cornwall
+Corsica
+Courland
+Creek
+Crimea
+Croatia
+Cuman
+Cyprus
+Cyrenaica
+Dahomey
+Dai Viet
+Dakota
+Damascus
+Dauphiné
+Delhi
+Denmark
+Duchy of Athens
+Dulkadir
+Edessa
+Egypt
+Eire
+England
+Ethiopia
+Fatimids
+Fez
+Finland
+Flanders
+France
+Franconia
+French Catholics
+Friesland
+Gelre
+Genoa
+Georgia
+Germany
+Golden Horde
+Gotland
+Granada
+Gujarat
+Guyenne
+Haiti
+Hammadid
+Hannover
+Hanseatic League
+Hellas
+Helvetia
+Hessen
+Holland
+Holstein
+Holy Roman Empire
+Huguenots
+Hungary
+Huron
+Hyderabad
+Iceland
+Inca Empire
+Iraq
+Iroquois
+Istria
+Italy
+Jodhpur
+Jutland
+Karaman
+Kärnten
+Kazan
+Khazak Horde
+Khmer
+Kiev
+Kingdom of Jerusalem
+Kleves
+Kongo
+Korea
+Krete
+Kustrin
+La Plata
+Lancaster
+Languedoc
+Leinster
+Lenape
+León
+Lithuania
+Livonian Order
+Lorraine
+Lousiana
+Luang Prabang
+Luxembourgh
+Magdeburg
+Mahrattis
+Mainz
+Makassar
+Malacca
+Mali
+Mallorca
+Malwa
+Mameluks
+Manchu
+Mantua
+Mataram
+Maya
+Meath
+Mecklenburg
+Mesopotamia
+Mexico
+Milan
+Minsk
+Modena
+Moldavia
+Morocco
+Moslem Nations
+Mughal Empire
+Munster
+Münster
+Muscowy
+Myanmar
+Mysore
+Naples
+Navaho
+Navarra
+Netherlands
+Nippon
+Nogai
+Normandy
+North Africa
+Norway
+Novgorod
+Nubia
+Oldenburg
+Oman
+Orissa
+Orleans
+Ottoman Empire
+Papal States
+Parma
+Pegu
+Perm
+Persia
+Peru
+Petra
+Picardy
+Podlasia
+Poitou
+Poland
+Polotsk
+Pommern
+Porto
+Portugal
+Provence
+Prussia
+Pskov
+Punjab
+Puritans
+Qara Koyunlu
+Quebec
+Ragusa
+Romagna
+Royalists
+Russia
+Ryazan
+Salzburg
+Sardinia
+Savoy
+Saxony
+Scotland
+Seljuk Turks
+Serbia
+Sevilla
+Shawnee
+Sibir
+Sicily
+Siebenbürgen
+Siena
+Silesia
+Skåne
+Slovakia
+Smolensk
+Songhai
+Spain
+Steiermark
+Stettin
+Strassburg
+Suzdal
+Swabia
+Sweden
+Syria
+Tangiers
+Taungu
+Teke
+Teutonic Order
+The Hedjaz
+The Kaliphate
+The Knights
+The Palatinat
+Thessalonika
+Tibet
+Timurid Empire
+Toulouse
+Transoxania
+Trebizond
+Tripoli
+Tunisia
+Tuscany
+Tver
+Tyrol
+Ukraine
+Ulster
+Union of Kalmar
+United States
+User Defined0
+User Defined1
+User Defined2
+User Defined3
+User Defined4
+User Defined5
+User Defined6
+User Defined7
+User Defined8
+User Defined9
+User Defined10
+User Defined11
+User Defined12
+User Defined13
+User Defined14
+User Defined15
+User Defined16
+User Defined17
+User Defined18
+User Defined19
+User Defined20
+User Defined21
+User Defined22
+User Defined23
+User Defined24
+User Defined25
+User Defined26
+User Defined27
+User Defined28
+User Defined29
+User Defined30
+User Defined31
+User Defined32
+User Defined33
+User Defined34
+User Defined35
+User Defined36
+User Defined37
+User Defined38
+User Defined39
+Uzbek Kaganate
+Valencia
+Venice
+Verona
+Vientiane
+Vijayanagar
+Volhynia
+Wales
+Wallachia
+Wurtemberg
+Würzburg
+Xhosa
+York
+Zanj
+Zapotec
+Zeeland
+Zimbabwe
+Zulu
+Mercenaries
+Natives
+Pirates
+Rebel Scum
